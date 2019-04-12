@@ -81,7 +81,11 @@
 		B5D00F4B2260633500B9DF57 /* BYLSwiftCommonHelper */ = {
 			isa = PBXGroup;
 			children = (
-				B5FB578D2260658000113CCB /* Extensions */,
+				B5FB578F2260659700113CCB /* UIColor+Util.swift */,
+				B5FB57922260659800113CCB /* UIFont+Custom.swift */,
+				B5FB57912260659800113CCB /* UISystem.swift */,
+				B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */,
+				B5FB57902260659800113CCB /* UIView+Shadow.swift */,
 				B5D00F4C2260633500B9DF57 /* BYLSwiftCommonHelper.h */,
 				B5D00F4D2260633500B9DF57 /* Info.plist */,
 			);
@@ -95,18 +99,6 @@
 				B5D00F592260633500B9DF57 /* Info.plist */,
 			);
 			path = BYLSwiftCommonHelperTests;
-			sourceTree = "<group>";
-		};
-		B5FB578D2260658000113CCB /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				B5FB578F2260659700113CCB /* UIColor+Util.swift */,
-				B5FB57922260659800113CCB /* UIFont+Custom.swift */,
-				B5FB57912260659800113CCB /* UISystem.swift */,
-				B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */,
-				B5FB57902260659800113CCB /* UIView+Shadow.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
