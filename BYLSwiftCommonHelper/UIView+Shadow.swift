@@ -11,7 +11,7 @@ import UIKit
 
 extension UIView {
     
-    func setupShadow(cornerRadius: CGFloat) {
+    public func setupShadow(cornerRadius: CGFloat) {
         self.layer.cornerRadius = cornerRadius
         self.layer.shadowOffset = CGSize(width: 0, height: 3)
         self.layer.shadowRadius = 3

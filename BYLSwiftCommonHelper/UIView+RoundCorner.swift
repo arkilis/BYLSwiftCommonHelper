@@ -12,7 +12,7 @@ extension UIView {
     
     // Set round corner to any UIView
     // e.g. someBtn.setupRoundCorner(8)
-    func setupRoundCorner(radius: CGFloat) {
+    public func setupRoundCorner(radius: CGFloat) {
         self.layer.cornerRadius = radius;
         self.layer.masksToBounds = true;
     }

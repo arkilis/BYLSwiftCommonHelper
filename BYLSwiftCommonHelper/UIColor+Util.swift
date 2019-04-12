@@ -14,7 +14,7 @@ extension UIColor {
     
     // Allow UIColor to use the Hex string
     // e.g. UIColor.init("445577")
-    convenience init(hex: String) {
+    public convenience init(hex: String) {
         let scanner = Scanner(string: hex)
         scanner.scanLocation = 0
         

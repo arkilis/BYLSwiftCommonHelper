@@ -12,7 +12,7 @@ import UIKit
 extension UIFont {
     
     // List all the fonts once you have added a cutom font in your plist and project
-    static func listAllFonts() {
+    public static func listAllFonts() {
         for family: String in UIFont.familyNames {
             for names: String in UIFont.fontNames(forFamilyName: family) {
                 print("== \(names)")
