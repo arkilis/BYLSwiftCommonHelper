@@ -10,6 +10,11 @@
 		B5D00F532260633500B9DF57 /* BYLSwiftCommonHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D00F492260633500B9DF57 /* BYLSwiftCommonHelper.framework */; };
 		B5D00F582260633500B9DF57 /* BYLSwiftCommonHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D00F572260633500B9DF57 /* BYLSwiftCommonHelperTests.swift */; };
 		B5D00F5A2260633500B9DF57 /* BYLSwiftCommonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D00F4C2260633500B9DF57 /* BYLSwiftCommonHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5FB57932260659800113CCB /* UIView+RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */; };
+		B5FB57942260659800113CCB /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB578F2260659700113CCB /* UIColor+Util.swift */; };
+		B5FB57952260659800113CCB /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB57902260659800113CCB /* UIView+Shadow.swift */; };
+		B5FB57962260659800113CCB /* UISystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB57912260659800113CCB /* UISystem.swift */; };
+		B5FB57972260659800113CCB /* UIFont+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB57922260659800113CCB /* UIFont+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		B5D00F522260633500B9DF57 /* BYLSwiftCommonHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYLSwiftCommonHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D00F572260633500B9DF57 /* BYLSwiftCommonHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYLSwiftCommonHelperTests.swift; sourceTree = "<group>"; };
 		B5D00F592260633500B9DF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorner.swift"; sourceTree = "<group>"; };
+		B5FB578F2260659700113CCB /* UIColor+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
+		B5FB57902260659800113CCB /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
+		B5FB57912260659800113CCB /* UISystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISystem.swift; sourceTree = "<group>"; };
+		B5FB57922260659800113CCB /* UIFont+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Custom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 		B5D00F4B2260633500B9DF57 /* BYLSwiftCommonHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B5FB578D2260658000113CCB /* Extensions */,
 				B5D00F4C2260633500B9DF57 /* BYLSwiftCommonHelper.h */,
 				B5D00F4D2260633500B9DF57 /* Info.plist */,
 			);
@@ -84,6 +95,18 @@
 				B5D00F592260633500B9DF57 /* Info.plist */,
 			);
 			path = BYLSwiftCommonHelperTests;
+			sourceTree = "<group>";
+		};
+		B5FB578D2260658000113CCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B5FB578F2260659700113CCB /* UIColor+Util.swift */,
+				B5FB57922260659800113CCB /* UIFont+Custom.swift */,
+				B5FB57912260659800113CCB /* UISystem.swift */,
+				B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */,
+				B5FB57902260659800113CCB /* UIView+Shadow.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,6 +171,7 @@
 				TargetAttributes = {
 					B5D00F482260633500B9DF57 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					B5D00F512260633500B9DF57 = {
 						CreatedOnToolsVersion = 10.1;
@@ -194,6 +218,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5FB57962260659800113CCB /* UISystem.swift in Sources */,
+				B5FB57932260659800113CCB /* UIView+RoundCorner.swift in Sources */,
+				B5FB57952260659800113CCB /* UIView+Shadow.swift in Sources */,
+				B5FB57972260659800113CCB /* UIFont+Custom.swift in Sources */,
+				B5FB57942260659800113CCB /* UIColor+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +370,7 @@
 		B5D00F5E2260633500B9DF57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -358,6 +388,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.flyingbits.BYLSwiftCommonHelper;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +397,7 @@
 		B5D00F5F2260633500B9DF57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -391,6 +423,7 @@
 		B5D00F612260633500B9DF57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43H6LUT4WJ;
 				INFOPLIST_FILE = BYLSwiftCommonHelperTests/Info.plist;
@@ -409,6 +442,7 @@
 		B5D00F622260633500B9DF57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43H6LUT4WJ;
 				INFOPLIST_FILE = BYLSwiftCommonHelperTests/Info.plist;
