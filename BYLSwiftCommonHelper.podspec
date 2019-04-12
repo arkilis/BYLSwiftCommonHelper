@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "BYLSwiftCommonHelper"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "BYLSwiftCommonHelper is a helpful private pod for Ben Liu to develop own Swift apps"
   s.homepage     = "https://github.com/arkilis/BYLSwiftCommonHelper"
   s.license      = { :type => "MIT", :file => "License" }
