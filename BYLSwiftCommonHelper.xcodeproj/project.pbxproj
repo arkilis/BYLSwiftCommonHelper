@@ -13,6 +13,7 @@
 		B5D00F532260633500B9DF57 /* BYLSwiftCommonHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5D00F492260633500B9DF57 /* BYLSwiftCommonHelper.framework */; };
 		B5D00F582260633500B9DF57 /* BYLSwiftCommonHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D00F572260633500B9DF57 /* BYLSwiftCommonHelperTests.swift */; };
 		B5D00F5A2260633500B9DF57 /* BYLSwiftCommonHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D00F4C2260633500B9DF57 /* BYLSwiftCommonHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5EC47F82265241B00D7CD39 /* UIView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EC47F72265241B00D7CD39 /* UIView+Animation.swift */; };
 		B5FB57932260659800113CCB /* UIView+RoundCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */; };
 		B5FB57942260659800113CCB /* UIColor+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB578F2260659700113CCB /* UIColor+Util.swift */; };
 		B5FB57952260659800113CCB /* UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FB57902260659800113CCB /* UIView+Shadow.swift */; };
@@ -42,6 +43,7 @@
 		B5D00F522260633500B9DF57 /* BYLSwiftCommonHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYLSwiftCommonHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D00F572260633500B9DF57 /* BYLSwiftCommonHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BYLSwiftCommonHelperTests.swift; sourceTree = "<group>"; };
 		B5D00F592260633500B9DF57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EC47F72265241B00D7CD39 /* UIView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Animation.swift"; sourceTree = "<group>"; };
 		B5FB578E2260659700113CCB /* UIView+RoundCorner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+RoundCorner.swift"; sourceTree = "<group>"; };
 		B5FB578F2260659700113CCB /* UIColor+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Util.swift"; sourceTree = "<group>"; };
 		B5FB57902260659800113CCB /* UIView+Shadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Shadow.swift"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 		B5D00F4B2260633500B9DF57 /* BYLSwiftCommonHelper */ = {
 			isa = PBXGroup;
 			children = (
+				B5EC47F72265241B00D7CD39 /* UIView+Animation.swift */,
 				B539BA7122613A730040C178 /* CGFloat+Util.swift */,
 				B5FB578F2260659700113CCB /* UIColor+Util.swift */,
 				B5FB57922260659800113CCB /* UIFont+Custom.swift */,
@@ -299,6 +302,7 @@
 				B5FB57952260659800113CCB /* UIView+Shadow.swift in Sources */,
 				B5FB57972260659800113CCB /* UIFont+Custom.swift in Sources */,
 				B539BA7222613A730040C178 /* CGFloat+Util.swift in Sources */,
+				B5EC47F82265241B00D7CD39 /* UIView+Animation.swift in Sources */,
 				B5FB57942260659800113CCB /* UIColor+Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
