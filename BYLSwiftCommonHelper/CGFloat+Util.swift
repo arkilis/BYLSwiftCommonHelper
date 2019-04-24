@@ -12,7 +12,7 @@ import UIKit
 
 extension CGFloat {
     
-    func formatToStringWithTwoDecimals() -> String {
+    public func formatToStringWithTwoDecimals() -> String {
         return String(format: "%.2f", Float(self))
     }
 }
