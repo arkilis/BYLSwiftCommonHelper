@@ -10,7 +10,7 @@ import UIKit
 
 extension CGSize {
     
-    func scale(to: Float) ->  CGSize {
+    public func scale(to: Float) ->  CGSize {
         return CGSize.init(width: self.width * CGFloat(to), height: self.height * CGFloat(to))
     }
 }
