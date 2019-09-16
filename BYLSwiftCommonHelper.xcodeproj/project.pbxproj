@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		72DD60830DCCA9F35243D7A2 /* Pods_BYLSwiftCommonHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93A67D4E49621802EC64C23 /* Pods_BYLSwiftCommonHelper.framework */; };
+		8B1C7B65232F5309006248F5 /* UIView+AddBottmLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1C7B64232F5309006248F5 /* UIView+AddBottmLine.swift */; };
 		A3A552333A83FAA0D7CAE1F8 /* Pods_BYLSwiftCommonHelperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C3EFF1E21760C043267C73B /* Pods_BYLSwiftCommonHelperTests.framework */; };
 		B539BA7222613A730040C178 /* CGFloat+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B539BA7122613A730040C178 /* CGFloat+Util.swift */; };
 		B5C29CAE22710AAE006D1C46 /* CGSize+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C29CAD22710AAE006D1C46 /* CGSize+Util.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		0C73B509168F89DAEFC8D8F9 /* Pods-BYLSwiftCommonHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYLSwiftCommonHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYLSwiftCommonHelper/Pods-BYLSwiftCommonHelper.release.xcconfig"; sourceTree = "<group>"; };
 		2CFC4484A3895F8DC4C03BEC /* Pods-BYLSwiftCommonHelperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYLSwiftCommonHelperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYLSwiftCommonHelperTests/Pods-BYLSwiftCommonHelperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B1C7B64232F5309006248F5 /* UIView+AddBottmLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AddBottmLine.swift"; sourceTree = "<group>"; };
 		8C3EFF1E21760C043267C73B /* Pods_BYLSwiftCommonHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BYLSwiftCommonHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EC02506F827471B250D657 /* Pods-BYLSwiftCommonHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYLSwiftCommonHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYLSwiftCommonHelperTests/Pods-BYLSwiftCommonHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		B539BA7122613A730040C178 /* CGFloat+Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Util.swift"; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				B5D00F4C2260633500B9DF57 /* BYLSwiftCommonHelper.h */,
 				B5D00F4D2260633500B9DF57 /* Info.plist */,
 				B5C29CAD22710AAE006D1C46 /* CGSize+Util.swift */,
+				8B1C7B64232F5309006248F5 /* UIView+AddBottmLine.swift */,
 			);
 			path = BYLSwiftCommonHelper;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5FB57962260659800113CCB /* UISystem.swift in Sources */,
+				8B1C7B65232F5309006248F5 /* UIView+AddBottmLine.swift in Sources */,
 				B5FB57932260659800113CCB /* UIView+RoundCorner.swift in Sources */,
 				B5C29CAE22710AAE006D1C46 /* CGSize+Util.swift in Sources */,
 				B5FB57952260659800113CCB /* UIView+Shadow.swift in Sources */,
