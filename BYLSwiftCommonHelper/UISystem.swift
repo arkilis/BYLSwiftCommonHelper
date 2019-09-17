@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class UISystem {
+public class UISystem {
     
     // Get the screen width
     public static func screenWidth() -> CGFloat {
